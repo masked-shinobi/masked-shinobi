@@ -1,156 +1,202 @@
 <div align="center">
 
-# ⚡ Sanjay Baskar — Project Portfolio
+# Sanjay Baskar — Project Portfolio
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Enthusiast;DevOps+Learner;Building+Projects+That+Solve+Problems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Systems+Builder;DevOps+Learner;Building+Practical+Projects" />
 
 </div>
 
 ---
-
-# 🧠 Featured Projects
-
-### 🤖 AI Resume Analyzer
-
-AI-powered resume evaluation system.
-
-**Tech Stack**
-
-`React` `Node.js` `Puter.js` `AI`
-
-🔗 https://github.com/masked-shinobi/AI-RESUME-ANALYSER
-
----
-
-### 🧠 RAG Architecture (AI)
-
-Retrieval Augmented Generation architecture demonstrating modern AI pipelines.
-
-**Tech**
-
-`Python` `Vector DB` `LLM`
-
-🔗 https://github.com/masked-shinobi/minor_rag_architecture
-
----
-
-### 🧠 MCQ Master — Advanced Quiz Engine
-
-Full-stack quiz engine designed for **Information Retrieval learning**.
-
-**Tech**
-
-`React` `Node.js` `Supabase` `Tailwind`
-
-🔗 https://github.com/masked-shinobi/MCQ_test_Maker_website
-
----
-
-# 🌐 Web Development
-
-| Project                                                                                      | Description                                |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [Ecommerce Devin AI Workflow](https://github.com/masked-shinobi/Ecommerce-devin-ai-workflow) | AI assisted ecommerce development          |
-| [CyberSecurity Web Centinel](https://github.com/masked-shinobi/CyberSecurity_Web_Centinel)   | GSAP cybersecurity club project            |
-| [GSAP 3D Website](https://github.com/masked-shinobi/GSAP-website-3d)                         | 3D animated website with video compression |
-
----
-
-# ☁ DevOps Projects
-
-| Project                                                                      | Description                            |
-| ---------------------------------------------------------------------------- | -------------------------------------- |
-| [DevOps WebApp Cloud](https://github.com/masked-shinobi/devops_webapp_cloud) | Basic CI/CD pipeline workflow          |
-| [Tic Tac Toe Docker](https://github.com/masked-shinobi/Tic-Tac-Toe-Docker)   | Containerized application using Docker |
-
----
-
-# 📱 Mobile Development
-
-| Project                                                                                       | Description                             |
-| --------------------------------------------------------------------------------------------- | --------------------------------------- |
-| [Food Delivery React Native](https://github.com/masked-shinobi/Food-delivery-app-reactnative) | Cross platform mobile food ordering app |
-| [File Manager App](https://github.com/masked-shinobi/file-manager-app)                        | Android file manager built using Kotlin |
-
----
-
-# 🔐 Blockchain
-
-| Project                                                                                                    | Description                                            |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [Organ Donation Blockchain Platform](https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain) | Blockchain based organ donation tracking using Ganache |
-
----
-
-# 📡 Computer Networks
-
-| Project                                                                 | Description                                  |
-| ----------------------------------------------------------------------- | -------------------------------------------- |
-| [Email Simulator](https://github.com/masked-shinobi/email-simulator-CN) | Email communication simulator for CN seminar |
-
----
-
-# 🧮 Data Structures & Algorithms
-
-| Project                                                                           | Description                           |
-| --------------------------------------------------------------------------------- | ------------------------------------- |
-| [DSA in C++ with Google Test](https://github.com/masked-shinobi/DSA-C-with-gtest) | DSA implementations with unit testing |
-| [PTS Algorithm](https://github.com/masked-shinobi/PTS-Algorithm)                  | Custom algorithm implementation       |
-
----
-
-# 🧪 Testing & Experiments
-
-| Project                                                                  | Description                          |
-| ------------------------------------------------------------------------ | ------------------------------------ |
-| [Code Unit Testing](https://github.com/masked-shinobi/code-unit-testing) | Python testing framework experiments |
-
----
-
-# 🎓 Academic / College Work
-
-| Project                                                                          | Description                                |
-| -------------------------------------------------------------------------------- | ------------------------------------------ |
-| [SRM Placement Compass](https://github.com/masked-shinobi/srm-placement-compass) | Demonstration project for SRM Step Program |
-
----
-
-# ⚙ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,python,cpp,java,kotlin,tailwind,docker,git,linux,js,ts,mongodb,postgres" />
+## Featured Projects
 
 </div>
-
----
-
-# 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=masked-shinobi&show_icons=true&theme=tokyonight" />
+### AI Resume Analyzer
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=masked-shinobi&layout=compact&theme=tokyonight"/>
+AI powered resume analysis system that evaluates resumes and provides insights.
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
+![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
+![AI](https://img.shields.io/badge/AI-System-blue?style=for-the-badge)
+
+<a href="https://github.com/masked-shinobi/AI-RESUME-ANALYSER">View Repository</a>
 
 </div>
 
 ---
 
-# 🧠 Current Interests
+<div align="center">
 
-✔ Artificial Intelligence
-✔ DevOps
-✔ Full Stack Development
-✔ Distributed Systems
+### RAG Architecture
+
+Implementation of Retrieval Augmented Generation architecture demonstrating modern AI pipelines.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
+![RAG](https://img.shields.io/badge/RAG-AI-orange?style=for-the-badge)
+
+<a href="https://github.com/masked-shinobi/minor_rag_architecture">View Repository</a>
+
+</div>
 
 ---
 
-# 📬 Connect
+<div align="center">
 
-GitHub
-https://github.com/masked-shinobi
+### MCQ Master — Quiz Engine
+
+Full stack MCQ application designed for Information Retrieval learning.
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge\&logo=tailwindcss)
+
+<a href="https://github.com/masked-shinobi/MCQ_test_Maker_website">View Repository</a>
+
+</div>
 
 ---
 
-⭐ If you like these projects, consider starring the repositories.
+<div align="center">
+
+## Web Development
+
+</div>
+
+<div align="center">
+
+Ecommerce Devin AI Workflow <a href="https://github.com/masked-shinobi/Ecommerce-devin-ai-workflow">Open Repository</a>
+
+CyberSecurity Web Centinel <a href="https://github.com/masked-shinobi/CyberSecurity_Web_Centinel">Open Repository</a>
+
+GSAP 3D Website <a href="https://github.com/masked-shinobi/GSAP-website-3d">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## DevOps
+
+</div>
+
+<div align="center">
+
+DevOps WebApp Cloud <a href="https://github.com/masked-shinobi/devops_webapp_cloud">Open Repository</a>
+
+Tic Tac Toe Docker <a href="https://github.com/masked-shinobi/Tic-Tac-Toe-Docker">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Mobile Applications
+
+</div>
+
+<div align="center">
+
+Food Delivery App (React Native) <a href="https://github.com/masked-shinobi/Food-delivery-app-reactnative">Open Repository</a>
+
+File Manager Android App (Kotlin) <a href="https://github.com/masked-shinobi/file-manager-app">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Blockchain
+
+</div>
+
+<div align="center">
+
+Organ Donation Platform (Ganache Blockchain)
+
+<a href="https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Data Structures and Algorithms
+
+</div>
+
+<div align="center">
+
+DSA in C++ with Google Test <a href="https://github.com/masked-shinobi/DSA-C-with-gtest">Open Repository</a>
+
+PTS Algorithm Experiment <a href="https://github.com/masked-shinobi/PTS-Algorithm">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Computer Networks
+
+</div>
+
+<div align="center">
+
+Email Simulator (Computer Networks Seminar)
+
+<a href="https://github.com/masked-shinobi/email-simulator-CN">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Academic Demonstration
+
+</div>
+
+<div align="center">
+
+SRM Placement Compass <a href="https://github.com/masked-shinobi/srm-placement-compass">Open Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Technology Stack
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,python,cpp,java,kotlin,docker,git,linux,tailwind,mongodb,postgres" />
+
+</div>
+
+---
+
+<div align="center">
+
+## GitHub Statistics
+
+<img src="https://github-readme-stats.vercel.app/api?username=masked-shinobi&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=masked-shinobi&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+<div align="center">
+
+If you find these projects interesting, consider giving them a star.
+
+</div>
