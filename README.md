@@ -47,6 +47,22 @@ Implementation of Retrieval Augmented Generation architecture demonstrating mode
 
 <div align="center">
 
+### Advanced RAG Architecture — Resembler
+
+Advanced Retrieval Augmented Generation system with semantic chunking, structured ingestion pipeline, and research-paper focused retrieval.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![RAG](https://img.shields.io/badge/Advanced-RAG-orange?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-System-blue?style=for-the-badge)
+
+<a href="https://github.com/masked-shinobi/MinorProject_resembler">View Repository</a>
+
+</div>
+
+---
+
+<div align="center">
+
 ### MCQ Master — Quiz Engine
 
 Full stack MCQ application designed for Information Retrieval learning.
