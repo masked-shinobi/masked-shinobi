@@ -1,6 +1,17 @@
-# FreeLance Portfolio : ![Fiver](https://www.fiverr.com/s/ak6ezdK)
+<div align="center">
 
+## 💼 Work With Me
 
+Available for freelance projects in:
+- AI Systems & RAG Applications
+- UI/UX Design
+- Full Stack Web Development
+
+<a href="https://www.fiverr.com/s/ak6ezdK">
+  <img src="https://img.shields.io/badge/Start%20a%20Project-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white"/>
+</a>
+
+</div>
 <div align="center">
 
 # Project Portfolio
