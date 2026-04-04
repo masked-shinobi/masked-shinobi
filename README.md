@@ -1,5 +1,18 @@
 <div align="center">
 
+# Non-Linear Creative Developer
+
+Designing beyond traditional boundaries — blending AI, engineering, and creativity into seamless digital experiences.
+
+⚙️ Domains:
+AI Systems • Web Development • UI/UX • Cloud Engineering  
+
+🎯 Focus:
+Building impactful, scalable, and visually engaging solutions.
+
+</div>
+<div align="center">
+
 ## 💼 Work With Me
 
 Available for freelance projects in:
