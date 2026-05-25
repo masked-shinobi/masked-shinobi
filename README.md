@@ -1,245 +1,103 @@
+```md
 <div align="center">
 
-# Non-Linear Creative Developer
+# Sanjay Baskar
 
-Designing beyond traditional boundaries — blending AI, engineering, and creativity into seamless digital experiences.
+### Non-Linear Creative Developer
 
-⚙️ Domains:
-AI Systems • Web Development • UI/UX • Cloud Engineering  
+Building AI systems, scalable applications, and visually engaging digital experiences.
 
-🎯 Focus:
-Building impactful, scalable, and visually engaging solutions.
+<p>
+  <a href="https://sanjaybaskar.me">
+    <img src="https://img.shields.io/badge/Portfolio-sanjaybaskar.me-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+  
+  <a href="https://www.fiverr.com/s/ak6ezdK">
+    <img src="https://img.shields.io/badge/Freelance-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white"/>
+  </a>
+</p>
 
-</div>
-<div align="center">
-
-## 💼 Work With Me
-
-Available for freelance projects in:
-- AI Systems & RAG Applications
-- UI/UX Design
-- Full Stack Web Development
-
-<a href="https://www.fiverr.com/s/ak6ezdK">
-  <img src="https://img.shields.io/badge/Start%20a%20Project-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white"/>
-</a>
-
-</div>
-<div align="center">
-
-# Project Portfolio
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Systems+Builder;DevOps+Learner;Building+Practical+Projects" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+Systems+Developer;Full+Stack+Engineer;UI%2FUX+Designer;Cloud+%26+DevOps+Learner;Building+Practical+Digital+Experiences" />
 
 </div>
 
 ---
 
-<div align="center">
+# About Me
 
-## Featured Projects
+I design and build systems that blend engineering, AI, and creativity into practical digital products.
 
-</div>
+Focused on creating:
+- Scalable AI Applications
+- Modern Full Stack Web Platforms
+- Interactive UI/UX Experiences
+- Cloud & DevOps Workflows
+- Research-driven RAG Systems
 
-<div align="center">
+---
 
-### AI Resume Analyzer
+# Domains
 
-AI powered resume analysis system that evaluates resumes and provides insights.
+### AI Engineering
+- RAG Architectures
+- AI Workflows
+- Semantic Retrieval Systems
+- Resume Analysis Systems
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
-![AI](https://img.shields.io/badge/AI-System-blue?style=for-the-badge)
+### Full Stack Development
+- React Applications
+- Node.js Backends
+- API Systems
+- Database Architecture
 
-<a href="https://github.com/masked-shinobi/AI-RESUME-ANALYSER">View Repository</a>
+### UI / UX
+- GSAP Experiences
+- 3D Interfaces
+- Responsive Design
+- Interactive Frontend Systems
 
-</div>
+### Cloud & DevOps
+- Docker
+- CI/CD Concepts
+- Cloud Deployments
+- Linux Workflows
+
+### Mobile Development
+- React Native Apps
+- Android Applications
+- Kotlin Projects
+
+### Additional Interests
+- Blockchain Systems
+- Computer Networks
+- DSA & Algorithms
+- System Design
+
+---
+
+# Technology Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,python,cpp,java,kotlin,docker,git,linux,tailwind,mongodb,postgres,supabase" />
+</p>
+
+---
+
+# GitHub Statistics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=masked-shinobi&show_icons=true&theme=tokyonight&hide_border=true"/>
+  
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=masked-shinobi&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
 
 <div align="center">
 
-### RAG Architecture
+### Building practical systems beyond traditional boundaries.
 
-Implementation of Retrieval Augmented Generation architecture demonstrating modern AI pipelines.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
-![RAG](https://img.shields.io/badge/RAG-AI-orange?style=for-the-badge)
-
-<a href="https://github.com/masked-shinobi/minor_rag_architecture">View Repository</a>
+⭐ Explore my repositories if you’re interested in AI systems, full stack engineering, and creative development.
 
 </div>
-
----
-
-<div align="center">
-
-### Advanced RAG Architecture — Resembler
-
-Advanced Retrieval Augmented Generation system with semantic chunking, structured ingestion pipeline, and research-paper focused retrieval.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![RAG](https://img.shields.io/badge/Advanced-RAG-orange?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-System-blue?style=for-the-badge)
-
-<a href="https://github.com/masked-shinobi/MinorProject_resembler">View Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-### MCQ Master — Quiz Engine
-
-Full stack MCQ application designed for Information Retrieval learning.
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge\&logo=tailwindcss)
-
-<a href="https://github.com/masked-shinobi/MCQ_test_Maker_website">View Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Web Development
-
-</div>
-
-<div align="center">
-
-Ecommerce Devin AI Workflow <a href="https://github.com/masked-shinobi/Ecommerce-devin-ai-workflow">Open Repository</a>
-
-CyberSecurity Web Centinel <a href="https://github.com/masked-shinobi/CyberSecurity_Web_Centinel">Open Repository</a>
-
-GSAP 3D Website <a href="https://github.com/masked-shinobi/GSAP-website-3d">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## DevOps
-
-</div>
-
-<div align="center">
-
-DevOps WebApp Cloud <a href="https://github.com/masked-shinobi/devops_webapp_cloud">Open Repository</a>
-
-Tic Tac Toe Docker <a href="https://github.com/masked-shinobi/Tic-Tac-Toe-Docker">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Mobile Applications
-
-</div>
-
-<div align="center">
-
-Food Delivery App (React Native) <a href="https://github.com/masked-shinobi/Food-delivery-app-reactnative">Open Repository</a>
-
-File Manager Android App (Kotlin) <a href="https://github.com/masked-shinobi/file-manager-app">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Blockchain
-
-</div>
-
-<div align="center">
-
-Organ Donation Platform (Ganache Blockchain)
-
-<a href="https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Data Structures and Algorithms
-
-</div>
-
-<div align="center">
-
-DSA in C++ with Google Test <a href="https://github.com/masked-shinobi/DSA-C-with-gtest">Open Repository</a>
-
-PTS Algorithm Experiment <a href="https://github.com/masked-shinobi/PTS-Algorithm">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Computer Networks
-
-</div>
-
-<div align="center">
-
-Email Simulator (Computer Networks Seminar)
-
-<a href="https://github.com/masked-shinobi/email-simulator-CN">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Academic Demonstration
-
-</div>
-
-<div align="center">
-
-SRM Placement Compass <a href="https://github.com/masked-shinobi/srm-placement-compass">Open Repository</a>
-
-</div>
-
----
-
-<div align="center">
-
-## Technology Stack
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,python,cpp,java,kotlin,docker,git,linux,tailwind,mongodb,postgres" />
-
-</div>
-
----
-
-<div align="center">
-
-## GitHub Statistics
-
-<img src="https://github-readme-stats.vercel.app/api?username=masked-shinobi&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=masked-shinobi&layout=compact&theme=tokyonight"/>
-
-</div>
-
----
-
-<div align="center">
-
-If you find these projects interesting, consider giving them a star.
-
-</div>
+```
