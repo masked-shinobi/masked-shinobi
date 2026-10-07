@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360">
+<defs>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A78BFA" stop-opacity=".18"/><stop offset=".5" stop-color="#0B0E14"/><stop offset="1" stop-color="#07090D"/></linearGradient>
+<pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="700" height="360" rx="28" fill="#090C11"/><rect width="700" height="360" rx="28" fill="url(#p)"/><rect width="700" height="360" rx="28" fill="url(#g)"/>
+<rect x="28" y="28" width="644" height="304" rx="20" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<circle cx="620" cy="78" r="26" fill="#A78BFA" fill-opacity=".1" stroke="#A78BFA" stroke-opacity=".3"/>
+<text x="620" y="86" text-anchor="middle" font-family="Arial" font-size="18" fill="#A78BFA">08</text>
+<text x="54" y="222" font-family="Inter,Arial,sans-serif" font-size="29px" font-weight="800" fill="#F5F7FA" text-anchor="start" opacity="1">CyberSecurity Web Centinel</text>
+<text x="54" y="252" font-family="Inter,Arial,sans-serif" font-size="14px" font-weight="500" fill="#9AA2B3" text-anchor="start" opacity="1">GSAP · JS · CSS</text>
+<path d="M54 284H220" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+<text x="54" y="310" font-family="Inter,Arial,sans-serif" font-size="10px" font-weight="800" fill="#A78BFA" text-anchor="start" opacity="1">CASE STUDY / BUILD</text>
+</svg>
