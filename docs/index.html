@@ -1,43 +1,7 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sanjay Baskar — Design Engineer</title>
-<style>
-:root{--bg:#fff;--card:#f6f8fa;--line:#d0d7de;--tx:#1f2328;--mu:#59636e;--ac:#6246ea}
-@media(prefers-color-scheme:dark){:root:not([data-t=light]){--bg:#0d1117;--card:#151b23;--line:#30363d;--tx:#e6edf3;--mu:#8b949e;--ac:#8b7cff}}
-:root[data-t=dark]{--bg:#0d1117;--card:#151b23;--line:#30363d;--tx:#e6edf3;--mu:#8b949e;--ac:#8b7cff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 -apple-system,Segoe UI,Inter,sans-serif}
-main{max-width:1000px;margin:auto;padding:32px 20px}header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-h1{font-size:clamp(2rem,6vw,3.4rem);margin:.2em 0;letter-spacing:-.03em}p{color:var(--mu)}
-button,input{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;cursor:pointer}
-button.on{border-color:var(--ac);color:var(--ac)}input{width:100%;border-radius:12px;cursor:text;margin:16px 0}
-.row{display:flex;gap:8px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:20px}
-a.c{display:block;padding:20px;background:var(--card);border:1px solid var(--line);border-radius:20px;color:inherit;text-decoration:none;transition:.2s}
-a.c:hover{transform:translateY(-4px);border-color:var(--ac)}a.c small{color:var(--ac);font:700 11px ui-monospace,monospace;letter-spacing:.15em}
-a.c b{display:block;font-size:1.2rem;margin:6px 0}a.c span{color:var(--mu);font-size:.9rem}
-</style></head><body><main>
-<header><div><small style="color:var(--ac);font:700 12px ui-monospace,monospace;letter-spacing:.2em">DESIGN ENGINEER</small><h1>Sanjay Baskar</h1><p>Creative interfaces meet serious engineering.</p></div>
-<button id="th">Toggle theme</button></header>
-<input id="q" placeholder="Search projects…" aria-label="Search projects">
-<div class="row" id="f"></div><div class="grid" id="g"></div>
-<script>
-const U="masked-shinobi",P=[
-["AI-RESUME-ANALYSER","AI Resume Analyser","AI / NLP","Scores resumes and returns actionable feedback"],
-["MinorProject_resembler","Resembler","AI / ML","Similarity matching engine"],
-["MCQ_test_Maker_website","MCQ Test Maker","WEB APP","Create, share and grade tests"],
-["devops_webapp_cloud","DevOps Web App","CLOUD","Containerised app with a cloud pipeline"],
-["CyberSecurity_Web_Centinel","Web Sentinel","SECURITY","Security monitoring interface"],
-["GSAP-website-3d","GSAP 3D Website","FRONTEND","Scroll-driven 3D landing page"],
-["Food-delivery-app-reactnative","Food Delivery App","MOBILE","Cross-platform ordering experience"],
-["Organ-Donation-Platform-BlockChain","Organ Donation Platform","BLOCKCHAIN","Transparent donor matching"],
-["email-simulator-CN","Email Simulator","NETWORKS","Mail-protocol simulation"],
-["DSA-C-with-gtest","DSA in C++","ALGORITHMS","Data structures with GoogleTest"],
-["file-manager-app","File Manager","APP","Browse and organise files"],
-["PTS-Algorithm","PTS Algorithm","ALGORITHMS","Algorithm implementation"]];
-let tag="ALL";const $=s=>document.querySelector(s),tags=["ALL",...new Set(P.map(p=>p[2]))];
-function draw(){const q=$("#q").value.toLowerCase();
-$("#f").innerHTML=tags.map(t=>`<button class="${t==tag?"on":""}" data-t="${t}">${t}</button>`).join("");
-$("#g").innerHTML=P.filter(p=>(tag=="ALL"||p[2]==tag)&&(p[1]+p[3]+p[2]).toLowerCase().includes(q))
-.map(p=>`<a class="c" href="https://github.com/${U}/${p[0]}"><small>${p[2]}</small><b>${p[1]}</b><span>${p[3]}</span></a>`).join("")}
-$("#f").onclick=e=>{if(e.target.dataset.t){tag=e.target.dataset.t;draw()}};$("#q").oninput=draw;
-$("#th").onclick=()=>{const r=document.documentElement,d=matchMedia("(prefers-color-scheme:dark)").matches;
-const cur=r.dataset.t||(d?"dark":"light");r.dataset.t=cur=="dark"?"light":"dark"};draw();
-</script></main></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sanjay Baskar — Profile Preview</title><style>:root{color-scheme:dark;background:#0a0d12;color:#f5f7fa}body{margin:0;background:#0a0d12;font:15px/1.6 Inter,system-ui,sans-serif}main{max-width:1100px;margin:30px auto;padding:0 24px 80px}img{width:100%;display:block;margin:18px 0}a{color:#a49aff}.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.badges img{width:auto;margin:0;height:28px}.nav{text-align:center;margin:18px 0 34px;letter-spacing:.08em;font-size:12px}.nav a{margin:0 8px;text-decoration:none}table{width:100%;border-collapse:separate;border-spacing:10px}td,th{padding:12px;border:1px solid #252d38;border-radius:14px;background:#10151d;text-align:left}blockquote{border-left:3px solid #8b7cff;padding-left:16px;color:#c6ced9}</style></head><body><main><img src="../assets/hero-dark.svg"><div class="badges"><a href="https://github.com/masked-shinobi"><img src="https://img.shields.io/badge/CODE-6246EA?style=for-the-badge&logo=github&logoColor=white"></a><a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="https://img.shields.io/badge/LINKEDIN-6246EA?style=for-the-badge&logo=linkedin&logoColor=white"></a><a href="mailto:maskedprogrammer.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6246EA?style=for-the-badge&logo=gmail&logoColor=white"></a></div><div class="nav">ABOUT · CAPABILITIES · WORK · STACK · ACTIVITY · CONTACT</div><img src="../assets/metrics-dark.svg"><h2>About · 01</h2><table><tr><td><h3>Design engineer × builder</h3><p>I build digital products where <b>creative interfaces meet serious engineering.</b></p><p>My work spans frontend systems, cloud infrastructure, AI retrieval pipelines, security tooling, mobile apps and algorithmic foundations.</p><blockquote>The goal isn't more technology. It's technology arranged with enough intent that the result feels obvious.</blockquote></td><td><pre>THINK  →  DESIGN
+  ↑          ↓
+LEARN  ←  SHIP
+  ↑          ↓
+TEST   ←  BUILD</pre><code>SRM IST · Chennai
+B.Tech CSE · Year 3
+Merit Scholarship</code></td></tr></table><h2>Capabilities · 02</h2><table><tr><td><img src="../assets/capability-01-dark.svg"></td><td><img src="../assets/capability-02-dark.svg"></td><td><img src="../assets/capability-03-dark.svg"></td></tr><tr><td><img src="../assets/capability-04-dark.svg"></td><td><img src="../assets/capability-05-dark.svg"></td><td><img src="../assets/capability-06-dark.svg"></td></tr></table><h2>Selected Work · 03</h2><table><tr><td><img src="../assets/project-01-dark.svg"></td><td><img src="../assets/project-02-dark.svg"></td></tr><tr><td><img src="../assets/project-03-dark.svg"></td><td><img src="../assets/project-04-dark.svg"></td></tr><tr><td><img src="../assets/project-05-dark.svg"></td><td><img src="../assets/project-06-dark.svg"></td></tr><tr><td><img src="../assets/project-07-dark.svg"></td><td><img src="../assets/project-08-dark.svg"></td></tr><tr><td><img src="../assets/project-09-dark.svg"></td><td><img src="../assets/project-10-dark.svg"></td></tr><tr><td><img src="../assets/project-11-dark.svg"></td><td><img src="../assets/project-12-dark.svg"></td></tr></table><h2>Stack · 04</h2><img src="../assets/stack-dark.svg"><img src="../assets/telemetry-dark.svg"><h2>How I Work · 05</h2><table><tr><td><b>01 / THINK</b><br>Architecture before implementation.</td><td><b>02 / CRAFT</b><br>Interfaces with purpose.</td><td><b>03 / VERIFY</b><br>Tests, edges, failure paths.</td><td><b>04 / SHIP</b><br>Small releases, real feedback.</td></tr></table><h2>Activity · 06</h2><img src="../assets/github-snake-dark.svg"><h2>Contact · 07</h2><div style="text-align:center;padding:40px"><h3>Build something that deserves a system diagram.</h3><p><a href="https://github.com/masked-shinobi">GitHub</a> · <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/">LinkedIn</a> · <a href="mailto:maskedprogrammer.in@gmail.com">Email</a></p></div></main></body></html>

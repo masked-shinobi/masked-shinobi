@@ -1,9 +1,33 @@
-# Profile v3 — deploy
+# Single-repository setup
 
-1. Copy everything into the root of your `masked-shinobi/masked-shinobi` repo (keep `.github/`).
-2. `python scripts/gen.py && python scripts/stats.py && python scripts/check_assets.py`
-3. Push. The workflow refreshes stats every 12h and builds the contribution snake (`output` branch).
-4. Settings → Pages → deploy from `main` / `/docs` for the interactive portfolio.
+This version removes the old private-builder → public-profile split.
 
-Edit `PROJECTS`, `CAPS`, `STACK`, `GAUGES` at the top of `scripts/gen.py` to change content.
-Dark/light: every asset has `-dark` and `-light` versions; the README `<picture>` tags follow GitHub's theme.
+Use this as the root of `masked-shinobi/masked-shinobi`.
+
+- `README.md` — profile UI
+- `assets/` — local light/dark SVG visuals + contribution snake
+- `scripts/gen.py` — content + SVG generator
+- `scripts/stats.py` — live GitHub metrics
+- `scripts/check_assets.py` — validation
+- `.github/workflows/update-profile.yml` — automatic refresh every 12 hours
+
+## Setup
+
+1. Replace the contents of your profile repository with this folder.
+2. Push to `main`.
+3. Run **Actions → Refresh profile visuals → Run workflow** once.
+4. Future runs refresh stats and the contribution snake automatically.
+
+No second repo, PAT, hidden output branch, or README-copying step is required.
+
+## Edit
+
+Change `PROJECTS`, `CAPS`, `STACK`, and `GAUGES` in `scripts/gen.py`, then run:
+
+```bash
+python scripts/gen.py
+python scripts/stats.py
+python scripts/check_assets.py
+```
+
+The README uses only local `./assets/...` references, so the whole profile is self-contained.

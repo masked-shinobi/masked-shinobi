@@ -1,44 +1,23 @@
-"""Builds assets/stats-dark.svg + stats-light.svg from the GitHub API (stdlib only)."""
-import json, os, datetime, collections, urllib.request
-from gen import THEMES, T, svg, card, write, FM, USER as DEFAULT_USER
-
-USER = os.environ.get("GH_USER", DEFAULT_USER)
-
+"""Fetch live GitHub metrics and regenerate the metrics SVG."""
+import os,json,urllib.request,datetime,collections
+from gen import THEMES,svg,panel,T,write,USER,FM
 def api(path):
-    h = {"Accept": "application/vnd.github+json", "User-Agent": "profile-stats"}
-    if os.environ.get("GITHUB_TOKEN"): h["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
-    return json.load(urllib.request.urlopen(urllib.request.Request("https://api.github.com" + path, headers=h), timeout=25))
-
+ h={'Accept':'application/vnd.github+json','User-Agent':'profile-stats'}
+ if os.getenv('GITHUB_TOKEN'): h['Authorization']='Bearer '+os.environ['GITHUB_TOKEN']
+ return json.load(urllib.request.urlopen(urllib.request.Request('https://api.github.com'+path,headers=h),timeout=20))
 def fetch():
-    try:
-        u = api(f"/users/{USER}")
-        repos = [r for r in api(f"/users/{USER}/repos?per_page=100&type=owner") if not r["fork"]]
-        langs = collections.Counter(r["language"] for r in repos if r["language"])
-        return [(str(u["public_repos"]), "PUBLIC REPOS"), (str(sum(r["stargazers_count"] for r in repos)), "STARS EARNED"),
-                (str(u["followers"]), "FOLLOWERS"), (str(sum(r["forks_count"] for r in repos)), "FORKS")], langs
-    except Exception as e:
-        print("API failed, using fallback:", e)
-        return ([("18", "PUBLIC REPOS"), ("0", "STARS EARNED"), ("0", "FOLLOWERS"), ("0", "FORKS")],
-                collections.Counter({"JavaScript": 6, "Python": 5, "C++": 2, "Kotlin": 1, "Solidity": 1, "CSS": 1}))
-
-def build(t, nums, langs):
-    pal = t["a"] + t["extra"]; b = ""
-    for i, (n, l) in enumerate(nums):
-        x = i * 252
-        b += card(t, x, 0, 244, 112, i) + T(t, x + 24, 64, n, 46, t["a"][i], w=800) + T(t, x + 24, 92, l, 10.5, t["mut"], FM, 700, ls=1.5)
-    b += card(t, 0, 128, 1000, 140, 0)
-    b += T(t, 28, 162, "TOP LANGUAGES", 11, t["a"][0], FM, 700, ls=2) + T(t, 972, 162, "updated " + datetime.date.today().isoformat(), 10.5, t["mut"], FM, a="end")
-    tot = sum(langs.values()) or 1; items = langs.most_common(8); x = 28
-    b += '<clipPath id="c"><rect x="28" y="176" width="944" height="12" rx="6"/></clipPath><g clip-path="url(#c)">'
-    for i, (n, v) in enumerate(items):
-        w = 944 * v / tot; b += f'<rect x="{x:.1f}" y="176" width="{w+1:.1f}" height="12" fill="{pal[i]}"/>'; x += w
-    b += "</g>"
-    for i, (n, v) in enumerate(items):
-        cx, cy = 28 + (i % 4) * 236, 216 + (i // 4) * 26
-        b += f'<circle cx="{cx+5}" cy="{cy-4}" r="5" fill="{pal[i]}"/>' + T(t, cx + 18, cy, f"{n}  {v*100/tot:.0f}%", 12, t["text"], FM)
-    return svg(t, 1000, 268, b)
-
-if __name__ == "__main__":
-    nums, langs = fetch()
-    for tn, t in THEMES.items(): write("stats", tn, build(t, nums, langs))
-    print("wrote assets/stats-dark.svg + stats-light.svg")
+ try:
+  u=api(f'/users/{USER}'); repos=[r for r in api(f'/users/{USER}/repos?per_page=100&type=owner') if not r.get('fork')]
+  return [(str(u.get('public_repos',0)),'PUBLIC REPOS'),(str(sum(r.get('stargazers_count',0) for r in repos)),'STARS EARNED'),(str(u.get('followers',0)),'FOLLOWERS'),(str(sum(r.get('forks_count',0) for r in repos)),'FORKS')]
+ except Exception as e:
+  print('GitHub API unavailable; fallback:',e); return [('18','PUBLIC REPOS'),('—','STARS EARNED'),('—','FOLLOWERS'),('—','FORKS')]
+def build(t,nums):
+ b=f'<rect width="1200" height="150" rx="18" fill="{t["panel"]}" stroke="{t["stroke"]}"/>'
+ for i,(n,l) in enumerate(nums):
+  x=24+i*294; b+=panel(t,x,16,270,118,False,14)+T(t,x+20,54,n,34,t['a'][i],w=850)+T(t,x+20,84,l,10.5,t['mut'],FM,700,ls=1.5)+f'<circle cx="{x+238}" cy="50" r="18" fill="{t["a"][i]}" opacity=".09"/><path d="M{x+231} 50l5 5 10-12" stroke="{t["a"][i]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+ b+=T(t,1172,132,'updated '+datetime.date.today().isoformat(),9.5,t['soft'],FM,600,'end')
+ return svg(t,1200,150,b,'Live GitHub profile metrics')
+if __name__=='__main__':
+ nums=fetch()
+ for th,t in THEMES.items(): write('metrics',th,build(t,nums))
+ print('updated metrics')
