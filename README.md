@@ -1,104 +1,70 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"><img src="./assets/hero-light.svg" width="100%" alt="Sanjay Baskar — Design Engineer"></picture>
+<img src="assets/header.svg" width="100%" alt="Sanjay Baskar — Design Engineer, Cloud & Security Developer"/>
+<img src="assets/roles.svg" width="100%" alt="Design Engineer · Cloud & Security Developer"/>
 
-<br/>
+<a href="https://github.com/masked-shinobi"><img src="assets/btn-github.svg" width="18%" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="assets/btn-linkedin.svg" width="18%" alt="LinkedIn"/></a>
+<a href="mailto:maskedprogrammer.in@gmail.com"><img src="assets/btn-email.svg" width="18%" alt="Email"/></a>
+<a href="https://drive.google.com/file/d/1QGokMLQhPTLxFkUjbR9Es9ofhuaZsnsl/view?usp=drive_link"><img src="assets/btn-resume.svg" width="18%" alt="Resume"/></a>
+<a href="https://app.notion.com/p/dsa-spreadsheet-sanjaybaskar/73b3a11dd45d8250922601672faf0c8c?v=8d43a11dd45d822db96b08a00fbbd6ef&source=copy_link"><img src="assets/btn-dsa.svg" width="18%" alt="DSA Sheet"/></a>
 
-<a href="https://github.com/masked-shinobi"><img src="https://img.shields.io/badge/CODE-6246EA?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="https://img.shields.io/badge/LINKEDIN-6246EA?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:maskedprogrammer.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6246EA?style=for-the-badge&logo=gmail&logoColor=white"></a> <a href="https://drive.google.com/file/d/1QGokMLQhPTLxFkUjbR9Es9ofhuaZsnsl/view?usp=drive_link"><img src="https://img.shields.io/badge/RESUME-6246EA?style=for-the-badge&logo=googledrive&logoColor=white"></a> <a href="https://masked-shinobi.github.io/masked-shinobi/"><img src="https://img.shields.io/badge/LIVE_PORTFOLIO-6246EA?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-
-<br/><br/>
-
-<a href="#about"><b>ABOUT</b></a> · <a href="#capabilities"><b>CAPABILITIES</b></a> · <a href="#work"><b>WORK</b></a> · <a href="#stack"><b>STACK</b></a> · <a href="#activity"><b>ACTIVITY</b></a> · <a href="#contact"><b>CONTACT</b></a>
+<img src="assets/ticker.svg" width="100%" alt="Tech ticker"/>
 
 </div>
 
-<br/>
+<img src="assets/title-about.svg" width="100%" alt="01 About"/>
+<img src="assets/bento-about.svg" width="100%" alt="About bento grid"/>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg"><img src="./assets/metrics-light.svg" width="100%" alt="GitHub profile metrics"></picture>
+<div align="center">
+<img src="assets/terminal.gif" width="59%" alt="Animated terminal"/>
+<img src="assets/radar.gif" width="39%" alt="Animated threat radar"/>
+</div>
 
-<br/>
+<img src="assets/title-journey.svg" width="100%" alt="02 Journey"/>
+<img src="assets/bento-journey.svg" width="100%" alt="Education and experience"/>
 
-## About · <sub>01</sub>
+<img src="assets/title-stack.svg" width="100%" alt="03 Stack"/>
+<img src="assets/bento-skills.svg" width="100%" alt="Skills bento grid"/>
 
-<table><tr><td width="68%" valign="top">
+<img src="assets/title-work.svg" width="100%" alt="04 Featured work"/>
 
-### Design engineer × builder
+<div align="center">
+<a href="https://github.com/masked-shinobi/AI-RESUME-ANALYSER"><img src="assets/card-01.svg" width="49%" alt="AI Resume Analyzer"/></a>
+<a href="https://github.com/masked-shinobi/MinorProject_resembler"><img src="assets/card-02.svg" width="49%" alt="Advanced RAG — Resembler"/></a>
+<a href="https://github.com/masked-shinobi/MCQ_test_Maker_website"><img src="assets/card-03.svg" width="49%" alt="MCQ Master"/></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=SanjayBaskar.shinobi-black-theme"><img src="assets/card-04.svg" width="49%" alt="Shinobi Black Theme"/></a>
+<a href="https://github.com/masked-shinobi/devops_webapp_cloud"><img src="assets/card-05.svg" width="49%" alt="DevOps WebApp Cloud"/></a>
+<a href="https://github.com/masked-shinobi/Food-delivery-app-reactnative"><img src="assets/card-06.svg" width="49%" alt="Food Delivery App"/></a>
+<a href="https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain"><img src="assets/card-07.svg" width="49%" alt="Organ Donation Platform"/></a>
+<a href="https://github.com/masked-shinobi?tab=repositories"><img src="assets/card-more.svg" width="49%" alt="More repositories"/></a>
+</div>
 
-I build digital products where **creative interfaces meet serious engineering**.
+<img src="assets/title-archive.svg" width="100%" alt="05 Archive"/>
 
-My work spans frontend systems, cloud infrastructure, AI retrieval pipelines, security tooling, mobile apps and algorithmic foundations.
+<table width="100%">
+<tr><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/minor_rag_architecture"><b>RAG Architecture</b></a><br/><sub>Modular retrieval-augmented generation pipeline</sub><br/><code>Python</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/CyberSecurity_Web_Centinel"><b>CyberSecurity Web Centinel</b></a><br/><sub>Animated cybersecurity showcase site</sub><br/><code>JS · GSAP · CSS</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/GSAP-website-3d"><b>GSAP 3D Website</b></a><br/><sub>Immersive 3D web experience</sub><br/><code>GSAP · Three.js</code></td></tr>
+<tr><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/Ecommerce-devin-ai-workflow"><b>Ecommerce Devin</b></a><br/><sub>AI-assisted e-commerce workflow</sub><br/><code>JS · HTML · CSS</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/Tic-Tac-Toe-Docker"><b>Tic Tac Toe Docker</b></a><br/><sub>Containerized game deployment</sub><br/><code>Docker · Linux</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/file-manager-app"><b>Android File Manager</b></a><br/><sub>Native Kotlin file manager</sub><br/><code>Kotlin · Android SDK</code></td></tr>
+<tr><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/email-simulator-CN"><b>Email Simulator</b></a><br/><sub>SMTP/POP3 protocols from scratch</sub><br/><code>Python · Sockets</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/DSA-C-with-gtest"><b>DSA in C++</b></a><br/><sub>Data structures with GTest suites</sub><br/><code>C++ · GTest</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/PTS-Algorithm"><b>PTS Algorithm</b></a><br/><sub>Custom algorithm design & optimization</sub><br/><code>C++ · Python</code></td></tr>
+<tr><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/code-unit-testing"><b>Python Unit Testing</b></a><br/><sub>Testing patterns & best practices</sub><br/><code>Python · unittest</code></td><td valign="top" width="33%"><a href="https://github.com/masked-shinobi/srm-placement-compass"><b>SRM Placement Compass</b></a><br/><sub>Placement roadmap for SRM students</sub><br/><code>DSA · Markdown</code></td><td valign="top" width="33%"><a href="https://app.notion.com/p/dsa-spreadsheet-sanjaybaskar/73b3a11dd45d8250922601672faf0c8c?v=8d43a11dd45d822db96b08a00fbbd6ef&source=copy_link"><b>DSA Spreadsheet</b></a><br/><sub>My Notion DSA progress tracker</sub><br/><code>Notion</code></td></tr>
+</table>
 
-> **The goal isn't more technology. It's technology arranged with enough intent that the result feels obvious.**
+<img src="assets/title-telemetry.svg" width="100%" alt="06 Telemetry"/>
 
-</td><td width="32%" valign="top">
+<div align="center">
+<img src="assets/stats.svg" width="100%" alt="GitHub stats"/>
+<img src="assets/github-snake.svg" width="100%" alt="Contribution snake"/>
+</div>
 
-```text
-THINK  →  DESIGN
-  ↑          ↓
-LEARN  ←  SHIP
-  ↑          ↓
-TEST   ←  BUILD
-```
-
-`SRM IST · Chennai`  
-`B.Tech CSE · Year 3`  
-`Merit Scholarship`
-
-</td></tr></table>
-
-## Capabilities · <sub>02</sub>
-
-<table><tr><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-01-dark.svg"><img src="./assets/capability-01-light.svg" width="100%" alt="PRODUCT UI"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-02-dark.svg"><img src="./assets/capability-02-light.svg" width="100%" alt="APPLICATIONS"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-03-dark.svg"><img src="./assets/capability-03-light.svg" width="100%" alt="AI / RAG"></picture></td></tr><tr><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-04-dark.svg"><img src="./assets/capability-04-light.svg" width="100%" alt="CLOUD / DEVOPS"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-05-dark.svg"><img src="./assets/capability-05-light.svg" width="100%" alt="SECURITY"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-06-dark.svg"><img src="./assets/capability-06-light.svg" width="100%" alt="FOUNDATIONS"></picture></td></tr></table>
-
-## Selected Work · <sub>03</sub>
-
-<table><tr><td width="66%"><a href="https://github.com/masked-shinobi/AI-RESUME-ANALYSER"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-01-dark.svg"><img src="./assets/project-01-light.svg" width="100%" alt="AI Resume Analyser"></picture></a></td><td width="34%"><a href="https://github.com/masked-shinobi/MinorProject_resembler"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-02-dark.svg"><img src="./assets/project-02-light.svg" width="100%" alt="Resembler"></picture></a></td></tr><tr><td width="34%"><a href="https://github.com/masked-shinobi/MCQ_test_Maker_website"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-03-dark.svg"><img src="./assets/project-03-light.svg" width="100%" alt="MCQ Test Maker"></picture></a></td><td width="66%"><a href="https://github.com/masked-shinobi/devops_webapp_cloud"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-04-dark.svg"><img src="./assets/project-04-light.svg" width="100%" alt="DevOps Web App"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/CyberSecurity_Web_Centinel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-05-dark.svg"><img src="./assets/project-05-light.svg" width="100%" alt="Web Sentinel"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/GSAP-website-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-06-dark.svg"><img src="./assets/project-06-light.svg" width="100%" alt="GSAP 3D Website"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/Food-delivery-app-reactnative"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-07-dark.svg"><img src="./assets/project-07-light.svg" width="100%" alt="Food Delivery App"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-08-dark.svg"><img src="./assets/project-08-light.svg" width="100%" alt="Organ Donation Platform"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/email-simulator-CN"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-09-dark.svg"><img src="./assets/project-09-light.svg" width="100%" alt="Email Simulator"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/DSA-C-with-gtest"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-10-dark.svg"><img src="./assets/project-10-light.svg" width="100%" alt="DSA in C++"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/file-manager-app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-11-dark.svg"><img src="./assets/project-11-light.svg" width="100%" alt="Android File Manager"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/PTS-Algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-12-dark.svg"><img src="./assets/project-12-light.svg" width="100%" alt="PTS Algorithm"></picture></a></td></tr></table>
-
-<details><summary><b>LAB INDEX · more systems & experiments</b></summary>
-
-<br/>
-<table><tr><th>BUILD</th><th>DIRECTION</th><th>SIGNAL</th></tr><tr><td><b>Web Sentinel</b></td><td>Security monitoring interface</td><td><code>Security · GSAP</code></td></tr><tr><td><b>GSAP 3D Website</b></td><td>Scroll-driven 3D motion system</td><td><code>GSAP · Three.js</code></td></tr><tr><td><b>Email Simulator</b></td><td>Protocol simulation for networking study</td><td><code>Python · Sockets</code></td></tr><tr><td><b>DSA in C++</b></td><td>Data structures with test coverage</td><td><code>C++ · gtest</code></td></tr><tr><td><b>Android File Manager</b></td><td>Local file browsing and organisation</td><td><code>Kotlin · Android</code></td></tr><tr><td><b>PTS Algorithm</b></td><td>Algorithm implementation and analysis</td><td><code>C++ · Python</code></td></tr></table>
-</details>
-
-## Stack · <sub>04</sub>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg"><img src="./assets/stack-light.svg" width="100%" alt="Technology stack"></picture>
-
-<br/>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry-dark.svg"><img src="./assets/telemetry-light.svg" width="100%" alt="Engineering telemetry"></picture>
-
-## How I Work · <sub>05</sub>
-
-<table><tr><td width="25%"><b>01 / THINK</b><br/><sub>Architecture before implementation.</sub></td><td width="25%"><b>02 / CRAFT</b><br/><sub>Interfaces with purpose.</sub></td><td width="25%"><b>03 / VERIFY</b><br/><sub>Tests, edges, failure paths.</sub></td><td width="25%"><b>04 / SHIP</b><br/><sub>Small releases, real feedback.</sub></td></tr></table>
-
-<details><summary><b>EXPERIENCE · timeline</b></summary>
-
-<br/><table><tr><td><b>SRM IST</b></td><td>B.Tech Computer Science Engineering · Chennai · Merit Scholarship</td></tr><tr><td><b>King Faisal University</b></td><td>AI / ML research · deep learning experimentation and applied intelligence</td></tr><tr><td><b>CJ Network</b></td><td>Web Engineering</td></tr><tr><td><b>Infosys</b></td><td>Python Development</td></tr></table>
-</details>
-
-<details><summary><b>CURRENT FOCUS · 2026</b></summary>
-
-<br/>`Cloud-native architecture` · `RAG systems` · `Developer experience` · `Cybersecurity interfaces` · `Algorithms + systems` · `Production testing`
-
-*make it work → make it understandable → make it worth using*
-
-</details>
-
-## Activity · <sub>06</sub>
-
-<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"><img src="./assets/github-snake.svg" width="100%" alt="GitHub contribution snake"></picture></div>
-
-## Contact · <sub>07</sub>
+<img src="assets/title-connect.svg" width="100%" alt="07 Connect"/>
 
 <div align="center">
 
-### Build something that deserves a system diagram.
+**Open to collaborations on creative frontends, cloud platforms and AI products.**
 
-<a href="https://github.com/masked-shinobi"><img src="https://img.shields.io/badge/EXPLORE_CODE-6246EA?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="https://img.shields.io/badge/LINKEDIN-6246EA?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:maskedprogrammer.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6246EA?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="mailto:maskedprogrammer.in@gmail.com"><img src="assets/btn-email.svg" width="18%" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="assets/btn-linkedin.svg" width="18%" alt="LinkedIn"/></a>
 
-<br/>
-
-<sub>SANJAY BASKAR · DESIGN ENGINEER · 2026</sub>
+<img src="assets/footer.svg" width="100%" alt="Designed and engineered by Sanjay Baskar"/>
 
 </div>

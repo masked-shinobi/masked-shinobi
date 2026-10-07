@@ -1,7 +1,8 @@
-"""Validate every local image referenced by README.md."""
-import re,sys
-from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]; md=(ROOT/'README.md').read_text(encoding='utf-8')
-refs=re.findall(r'(?:src|srcset)="(\./assets/[^"?#]+)',md)
-missing=[r for r in refs if not (ROOT/r[2:]).exists()]
-print('README local assets:',len(refs)); print('missing:',missing or 'none'); sys.exit(1 if missing else 0)
+"""Run before pushing:  python scripts/check_assets.py  — flags any README image that doesn't exist locally."""
+import re, os, sys
+root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+md = open(os.path.join(root, "README.md"), encoding="utf-8").read()
+bad = [p for p in re.findall(r'src="([^"]+)"', md) if not p.startswith("http") and not os.path.exists(os.path.join(root, p))]
+ext = [p for p in re.findall(r'src="(http[^"]+)"', md)]
+print("missing local assets:", bad or "none"); print("external image URLs:", len(ext))
+sys.exit(1 if bad else 0)
