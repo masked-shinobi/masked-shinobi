@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="330" viewBox="0 0 620 330">
 <defs>
-<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F472B6" stop-opacity=".18"/><stop offset=".5" stop-color="#0B0E14"/><stop offset="1" stop-color="#07090D"/></linearGradient>
-<pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F472B6" stop-opacity=".16"/><stop offset=".52" stop-color="#0B0F16" stop-opacity=".9"/><stop offset="1" stop-color="#06080C"/></linearGradient>
+<pattern id="pg" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
 </defs>
-<rect width="700" height="360" rx="28" fill="#090C11"/><rect width="700" height="360" rx="28" fill="url(#p)"/><rect width="700" height="360" rx="28" fill="url(#g)"/>
-<rect x="28" y="28" width="644" height="304" rx="20" fill="none" stroke="#fff" stroke-opacity=".08"/>
-<circle cx="620" cy="78" r="26" fill="#F472B6" fill-opacity=".1" stroke="#F472B6" stroke-opacity=".3"/>
-<text x="620" y="86" text-anchor="middle" font-family="Arial" font-size="18" fill="#F472B6">03</text>
-<text x="54" y="222" font-family="Inter,Arial,sans-serif" font-size="29px" font-weight="800" fill="#F5F7FA" text-anchor="start" opacity="1">MCQ Master</text>
-<text x="54" y="252" font-family="Inter,Arial,sans-serif" font-size="14px" font-weight="500" fill="#9AA2B3" text-anchor="start" opacity="1">React · Supabase · JS</text>
-<path d="M54 284H220" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
-<text x="54" y="310" font-family="Inter,Arial,sans-serif" font-size="10px" font-weight="800" fill="#F472B6" text-anchor="start" opacity="1">CASE STUDY / BUILD</text>
+<rect width="620" height="330" rx="24" fill="#0B0F16"/><rect width="620" height="330" rx="24" fill="url(#p)"/><rect width="620" height="330" rx="24" fill="url(#pg)"/>
+<rect x="20" y="20" width="580" height="290" rx="18" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<text x="44" y="58" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="850" fill="#F472B6" text-anchor="start" opacity="1">03</text>
+<text x="574" y="58" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="800" fill="#8992A3" text-anchor="end" opacity="1">BUILD / CASE STUDY</text>
+<text x="44" y="190" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="850" fill="#F4F6FA" text-anchor="start" opacity="1">MCQ MASTER</text>
+<text x="44" y="220" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" fill="#B0B7C5" text-anchor="start" opacity="1">assessment engine + analytics</text>
+<text x="44" y="252" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="750" fill="#F472B6" text-anchor="start" opacity="1">React · Supabase · JS</text>
+<path d="M44 275H184" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
+<text x="44" y="296" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="800" fill="#F4F6FA" text-anchor="start" opacity="1">OPEN PROJECT ↗</text>
 </svg>
