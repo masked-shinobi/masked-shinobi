@@ -1,8 +1,7 @@
 <div align="center">
 
 <img src="assets/header.svg" width="100%" alt="Sanjay Baskar — Design Engineer, Cloud & Security Developer"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=FF2E4D&center=true&vCenter=true&width=760&height=40&lines=Design+Engineer;Cloud+%26+Security+Developer;Creative+frontends+%2B+scalable+cloud+%2B+AI;Non-linear+thinking+for+a+linear+world" alt="typing roles"/>
+<img src="assets/roles.svg" width="100%" alt="Design Engineer · Cloud & Security Developer"/>
 
 <a href="https://github.com/masked-shinobi"><img src="assets/btn-github.svg" width="18%" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="assets/btn-linkedin.svg" width="18%" alt="LinkedIn"/></a>
@@ -10,20 +9,23 @@
 <a href="https://drive.google.com/file/d/1QGokMLQhPTLxFkUjbR9Es9ofhuaZsnsl/view?usp=drive_link"><img src="assets/btn-resume.svg" width="18%" alt="Resume"/></a>
 <a href="https://app.notion.com/p/dsa-spreadsheet-sanjaybaskar/73b3a11dd45d8250922601672faf0c8c?v=8d43a11dd45d822db96b08a00fbbd6ef&source=copy_link"><img src="assets/btn-dsa.svg" width="18%" alt="DSA Sheet"/></a>
 
+<img src="assets/ticker.svg" width="100%" alt="Tech ticker"/>
+
 </div>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About"/>
 <img src="assets/bento-about.svg" width="100%" alt="About bento grid"/>
+
+<div align="center">
+<img src="assets/terminal.gif" width="59%" alt="Animated terminal"/>
+<img src="assets/radar.gif" width="39%" alt="Animated threat radar"/>
+</div>
 
 <img src="assets/title-journey.svg" width="100%" alt="02 Journey"/>
 <img src="assets/bento-journey.svg" width="100%" alt="Education and experience"/>
 
 <img src="assets/title-stack.svg" width="100%" alt="03 Stack"/>
 <img src="assets/bento-skills.svg" width="100%" alt="Skills bento grid"/>
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,java,kotlin,react,nextjs,nodejs,threejs,postgres,supabase,docker,kubernetes,gcp,githubactions,git,vscode,linux&perline=19" width="100%" alt="Tech icons"/>
-</div>
 
 <img src="assets/title-work.svg" width="100%" alt="04 Featured work"/>
 
@@ -50,12 +52,8 @@
 <img src="assets/title-telemetry.svg" width="100%" alt="06 Telemetry"/>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=masked-shinobi&show_icons=true&theme=transparent&bg_color=0c0c0f&title_color=ff2e4d&icon_color=00e5ff&text_color=c9c9d1&border_color=23232b&hide_border=false&border_radius=18" width="49%" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=masked-shinobi&layout=compact&theme=transparent&bg_color=0c0c0f&title_color=ff2e4d&icon_color=00e5ff&text_color=c9c9d1&border_color=23232b&hide_border=false&border_radius=18" width="49%" alt="Top languages"/>
-<img src="https://streak-stats.demolab.com?user=masked-shinobi&background=0C0C0F&ring=FF2E4D&fire=FF2E4D&currStreakNum=FFFFFF&currStreakLabel=00E5FF&sideNums=FFFFFF&sideLabels=8B8B99&dates=8B8B99&stroke=23232B&border=23232B&borderRadius=18" width="49%" alt="Streak"/>
-<img src="https://github-profile-trophy.vercel.app/?username=masked-shinobi&theme=onedark&no-frame=true&no-bg=true&row=4&column=3&margin-w=8" width="49%" alt="Trophies"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=masked-shinobi&bg_color=050505&color=ff2e4d&line=ff2e4d&point=00e5ff&area=true&area_color=ff2e4d&hide_border=true&radius=18" width="100%" alt="Activity graph"/>
-<img src="https://raw.githubusercontent.com/masked-shinobi/masked-shinobi/output/github-snake-neon.svg" width="100%" alt="Contribution snake"/>
+<img src="assets/stats.svg" width="100%" alt="GitHub stats"/>
+<img src="assets/github-snake.svg" width="100%" alt="Contribution snake"/>
 </div>
 
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect"/>
@@ -67,6 +65,6 @@
 <a href="mailto:maskedprogrammer.in@gmail.com"><img src="assets/btn-email.svg" width="18%" alt="Email"/></a>
 <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="assets/btn-linkedin.svg" width="18%" alt="LinkedIn"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2e4d,100:00e5ff&height=110&section=footer" width="100%" alt="footer wave"/>
+<img src="assets/footer.svg" width="100%" alt="Designed and engineered by Sanjay Baskar"/>
 
 </div>
