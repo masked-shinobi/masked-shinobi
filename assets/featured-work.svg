@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="206" viewBox="0 0 1200 206" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Selected work groups</title>
+  <desc id="desc">Featured projects grouped by AI and retrieval, cloud and security, and product experience.</desc>
+  <rect x="0.5" y="0.5" width="1199" height="205" rx="8" fill="#F8FAFD" stroke="#DADCE0"/>
+  <path d="M400 1V205M800 1V205M24 1V205M1176 1V205" stroke="#DADCE0"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g fill="#1A73E8" font-size="13" font-weight="700"><text x="30" y="38">01 / INTELLIGENCE</text><text x="430" y="38">02 / SYSTEMS</text><text x="830" y="38">03 / EXPERIENCES</text></g>
+    <g fill="#202124" font-size="22" font-weight="600"><text x="30" y="82">AI + retrieval</text><text x="430" y="82">Cloud + security</text><text x="830" y="82">Product + motion</text></g>
+    <g fill="#5F6368" font-size="15"><text x="30" y="117">Resume analysis · similarity search</text><text x="430" y="117">Delivery pipelines · security UI</text><text x="830" y="117">Assessment tools · 3D interfaces</text></g>
+    <path d="M30 151H370M430 151H770M830 151H1170" stroke="#DADCE0"/>
+    <g fill="#1A73E8" font-size="14" font-weight="600"><text x="30" y="179">Python · NLP · FAISS</text><text x="430" y="179">Docker · CI/CD · GSAP</text><text x="830" y="179">React · Supabase · Three.js</text></g>
+  </g>
+</svg>
