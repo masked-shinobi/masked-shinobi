@@ -1,126 +1,104 @@
-# Sanjay Baskar
+<div align="center">
 
-<p align="center"><img src="./assets/hero-light.svg" width="100%" alt="Sanjay Baskar, design engineer focused on cloud and security, building creative interfaces with serious engineering. SRM IST, Chennai; B.Tech CSE, Year 3; Merit Scholarship." /></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"><img src="./assets/hero-light.svg" width="100%" alt="Sanjay Baskar — Design Engineer"></picture>
 
-<p align="center"><a href="https://github.com/masked-shinobi">GitHub</a> · <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/">LinkedIn</a> · <a href="mailto:maskedprogrammer.in@gmail.com">Email</a> · <a href="https://drive.google.com/file/d/1QGokMLQhPTLxFkUjbR9Es9ofhuaZsnsl/view?usp=drive_link">Resume</a> · <a href="https://masked-shinobi.github.io/masked-shinobi/">Live portfolio</a></p>
+<br/>
 
----
+<a href="https://github.com/masked-shinobi"><img src="https://img.shields.io/badge/CODE-6246EA?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="https://img.shields.io/badge/LINKEDIN-6246EA?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:maskedprogrammer.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6246EA?style=for-the-badge&logo=gmail&logoColor=white"></a> <a href="https://drive.google.com/file/d/1QGokMLQhPTLxFkUjbR9Es9ofhuaZsnsl/view?usp=drive_link"><img src="https://img.shields.io/badge/RESUME-6246EA?style=for-the-badge&logo=googledrive&logoColor=white"></a> <a href="https://masked-shinobi.github.io/masked-shinobi/"><img src="https://img.shields.io/badge/LIVE_PORTFOLIO-6246EA?style=for-the-badge&logo=githubpages&logoColor=white"></a>
 
-## 01 · About
+<br/><br/>
 
-I build digital products where **creative interfaces meet serious engineering**. My work spans frontend systems, cloud infrastructure, AI retrieval pipelines, security tooling, mobile apps, and algorithmic foundations.
+<a href="#about"><b>ABOUT</b></a> · <a href="#capabilities"><b>CAPABILITIES</b></a> · <a href="#work"><b>WORK</b></a> · <a href="#stack"><b>STACK</b></a> · <a href="#activity"><b>ACTIVITY</b></a> · <a href="#contact"><b>CONTACT</b></a>
 
-> The goal isn't more technology. It's technology arranged with enough intent that the result feels obvious.
+</div>
 
-**Think → Design → Build → Test → Learn → Ship**
+<br/>
 
-| Public repositories | Stars earned | Followers | Forks |
-|:--:|:--:|:--:|:--:|
-| **18** | — | — | — |
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg"><img src="./assets/metrics-light.svg" width="100%" alt="GitHub profile metrics"></picture>
 
-## 02 · Capabilities
+<br/>
 
-<p align="center"><img src="./assets/capability-grid.svg" width="100%" alt="Six capabilities: product UI, applications, AI and retrieval, cloud and DevOps, security, and engineering foundations." /></p>
+## About · <sub>01</sub>
 
-- **Product UI** — Interfaces that feel engineered; React, Next.js, GSAP, and Three.js.
-- **Applications** — APIs, services, and data flows; Node.js, Python, REST, and Postgres.
-- **AI / RAG** — Retrieval systems with usable outputs; LangChain, FAISS, embeddings, and LLMs.
-- **Cloud / DevOps** — Build, test, and ship with confidence; Docker, Actions, Linux, and GCP.
-- **Security** — Defensive tooling and observability; web security, auth, monitoring, and threat UI.
-- **Foundations** — Algorithms, mobile, and quality; C++, Kotlin, DSA, and gtest.
+<table><tr><td width="68%" valign="top">
 
-## 03 · Selected work
+### Design engineer × builder
 
-<p align="center"><img src="./assets/featured-work.svg" width="100%" alt="Featured work across AI and retrieval, cloud and security, and product experiences." /></p>
+I build digital products where **creative interfaces meet serious engineering**.
 
-**AI & retrieval**
+My work spans frontend systems, cloud infrastructure, AI retrieval pipelines, security tooling, mobile apps and algorithmic foundations.
 
-- [AI Resume Analyser](https://github.com/masked-shinobi/AI-RESUME-ANALYSER) — Resume scoring and actionable feedback · Python, NLP.
-- [Resembler](https://github.com/masked-shinobi/MinorProject_resembler) — Similarity matching and retrieval · Python, FAISS.
+> **The goal isn't more technology. It's technology arranged with enough intent that the result feels obvious.**
 
-**Cloud & security**
+</td><td width="32%" valign="top">
 
-- [DevOps Web App](https://github.com/masked-shinobi/devops_webapp_cloud) — Containerised delivery pipeline · Docker, CI/CD.
-- [Web Sentinel](https://github.com/masked-shinobi/CyberSecurity_Web_Centinel) — Security monitoring interface · Security, GSAP.
+```text
+THINK  →  DESIGN
+  ↑          ↓
+LEARN  ←  SHIP
+  ↑          ↓
+TEST   ←  BUILD
+```
 
-**Product experiences**
+`SRM IST · Chennai`  
+`B.Tech CSE · Year 3`  
+`Merit Scholarship`
 
-- [MCQ Test Maker](https://github.com/masked-shinobi/MCQ_test_Maker_website) — Create, share, and grade tests · React, Supabase.
-- [GSAP 3D Website](https://github.com/masked-shinobi/GSAP-website-3d) — Scroll-driven 3D motion system · GSAP, Three.js.
+</td></tr></table>
 
-<details>
-<summary><strong>Complete project index · six more builds</strong></summary>
+## Capabilities · <sub>02</sub>
 
-- [Food Delivery App](https://github.com/masked-shinobi/Food-delivery-app-reactnative) — Cross-platform ordering flow · React Native, JS.
-- [Organ Donation Platform](https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain) — Transparent donor matching on-chain · Solidity, Ethereum.
-- [Email Simulator](https://github.com/masked-shinobi/email-simulator-CN) — Protocol simulation for networking study · Python, Sockets.
-- [DSA in C++](https://github.com/masked-shinobi/DSA-C-with-gtest) — Data structures with test coverage · C++, gtest.
-- [Android File Manager](https://github.com/masked-shinobi/file-manager-app) — Local file browsing and organisation · Kotlin, Android.
-- [PTS Algorithm](https://github.com/masked-shinobi/PTS-Algorithm) — Algorithm implementation and analysis · C++, Python.
+<table><tr><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-01-dark.svg"><img src="./assets/capability-01-light.svg" width="100%" alt="PRODUCT UI"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-02-dark.svg"><img src="./assets/capability-02-light.svg" width="100%" alt="APPLICATIONS"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-03-dark.svg"><img src="./assets/capability-03-light.svg" width="100%" alt="AI / RAG"></picture></td></tr><tr><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-04-dark.svg"><img src="./assets/capability-04-light.svg" width="100%" alt="CLOUD / DEVOPS"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-05-dark.svg"><img src="./assets/capability-05-light.svg" width="100%" alt="SECURITY"></picture></td><td width="33%"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/capability-06-dark.svg"><img src="./assets/capability-06-light.svg" width="100%" alt="FOUNDATIONS"></picture></td></tr></table>
+
+## Selected Work · <sub>03</sub>
+
+<table><tr><td width="66%"><a href="https://github.com/masked-shinobi/AI-RESUME-ANALYSER"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-01-dark.svg"><img src="./assets/project-01-light.svg" width="100%" alt="AI Resume Analyser"></picture></a></td><td width="34%"><a href="https://github.com/masked-shinobi/MinorProject_resembler"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-02-dark.svg"><img src="./assets/project-02-light.svg" width="100%" alt="Resembler"></picture></a></td></tr><tr><td width="34%"><a href="https://github.com/masked-shinobi/MCQ_test_Maker_website"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-03-dark.svg"><img src="./assets/project-03-light.svg" width="100%" alt="MCQ Test Maker"></picture></a></td><td width="66%"><a href="https://github.com/masked-shinobi/devops_webapp_cloud"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-04-dark.svg"><img src="./assets/project-04-light.svg" width="100%" alt="DevOps Web App"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/CyberSecurity_Web_Centinel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-05-dark.svg"><img src="./assets/project-05-light.svg" width="100%" alt="Web Sentinel"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/GSAP-website-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-06-dark.svg"><img src="./assets/project-06-light.svg" width="100%" alt="GSAP 3D Website"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/Food-delivery-app-reactnative"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-07-dark.svg"><img src="./assets/project-07-light.svg" width="100%" alt="Food Delivery App"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/Organ-Donation-Platform-BlockChain"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-08-dark.svg"><img src="./assets/project-08-light.svg" width="100%" alt="Organ Donation Platform"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/email-simulator-CN"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-09-dark.svg"><img src="./assets/project-09-light.svg" width="100%" alt="Email Simulator"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/DSA-C-with-gtest"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-10-dark.svg"><img src="./assets/project-10-light.svg" width="100%" alt="DSA in C++"></picture></a></td></tr><tr><td width="50%"><a href="https://github.com/masked-shinobi/file-manager-app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-11-dark.svg"><img src="./assets/project-11-light.svg" width="100%" alt="Android File Manager"></picture></a></td><td width="50%"><a href="https://github.com/masked-shinobi/PTS-Algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-12-dark.svg"><img src="./assets/project-12-light.svg" width="100%" alt="PTS Algorithm"></picture></a></td></tr></table>
+
+<details><summary><b>LAB INDEX · more systems & experiments</b></summary>
+
+<br/>
+<table><tr><th>BUILD</th><th>DIRECTION</th><th>SIGNAL</th></tr><tr><td><b>Web Sentinel</b></td><td>Security monitoring interface</td><td><code>Security · GSAP</code></td></tr><tr><td><b>GSAP 3D Website</b></td><td>Scroll-driven 3D motion system</td><td><code>GSAP · Three.js</code></td></tr><tr><td><b>Email Simulator</b></td><td>Protocol simulation for networking study</td><td><code>Python · Sockets</code></td></tr><tr><td><b>DSA in C++</b></td><td>Data structures with test coverage</td><td><code>C++ · gtest</code></td></tr><tr><td><b>Android File Manager</b></td><td>Local file browsing and organisation</td><td><code>Kotlin · Android</code></td></tr><tr><td><b>PTS Algorithm</b></td><td>Algorithm implementation and analysis</td><td><code>C++ · Python</code></td></tr></table>
 </details>
 
-<details>
-<summary><strong>Lab index · systems and experiments</strong></summary>
+## Stack · <sub>04</sub>
 
-| Build | Direction | Signal |
-|:--|:--|:--|
-| Web Sentinel | Security monitoring interface | Security · GSAP |
-| GSAP 3D Website | Scroll-driven 3D motion system | GSAP · Three.js |
-| Email Simulator | Protocol simulation for networking study | Python · Sockets |
-| DSA in C++ | Data structures with test coverage | C++ · gtest |
-| Android File Manager | Local file browsing and organisation | Kotlin · Android |
-| PTS Algorithm | Algorithm implementation and analysis | C++ · Python |
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg"><img src="./assets/stack-light.svg" width="100%" alt="Technology stack"></picture>
+
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry-dark.svg"><img src="./assets/telemetry-light.svg" width="100%" alt="Engineering telemetry"></picture>
+
+## How I Work · <sub>05</sub>
+
+<table><tr><td width="25%"><b>01 / THINK</b><br/><sub>Architecture before implementation.</sub></td><td width="25%"><b>02 / CRAFT</b><br/><sub>Interfaces with purpose.</sub></td><td width="25%"><b>03 / VERIFY</b><br/><sub>Tests, edges, failure paths.</sub></td><td width="25%"><b>04 / SHIP</b><br/><sub>Small releases, real feedback.</sub></td></tr></table>
+
+<details><summary><b>EXPERIENCE · timeline</b></summary>
+
+<br/><table><tr><td><b>SRM IST</b></td><td>B.Tech Computer Science Engineering · Chennai · Merit Scholarship</td></tr><tr><td><b>King Faisal University</b></td><td>AI / ML research · deep learning experimentation and applied intelligence</td></tr><tr><td><b>CJ Network</b></td><td>Web Engineering</td></tr><tr><td><b>Infosys</b></td><td>Python Development</td></tr></table>
 </details>
 
-## 04 · Stack
+<details><summary><b>CURRENT FOCUS · 2026</b></summary>
 
-| Group | Technologies |
-|:--|:--|
-| Languages | TypeScript · JavaScript · Python · C++ · Java · Kotlin · Solidity |
-| Frontend | React · Next.js · GSAP · Three.js · Tailwind |
-| Backend | Node.js · Express · REST · PostgreSQL · Supabase |
-| AI / Data | RAG · LangChain · FAISS · Embeddings · scikit-learn |
-| Cloud | Docker · GCP · GitHub Actions · CI/CD · Linux |
-| Quality | Unit testing · gtest · pytest · TDD · Edge cases |
-
-### Engineering telemetry
-
-<p align="center"><img src="./assets/telemetry-light.svg" width="100%" alt="Self-assessed engineering signal: frontend interface 92%, backend services 88%, AI retrieval 86%, cloud delivery 82%." /></p>
-
-*Self-assessed signal across interface, services, retrieval, and delivery.*
-
-## 05 · How I work
-
-1. **Think** — Architecture before implementation.
-2. **Craft** — Interfaces with purpose.
-3. **Verify** — Tests, edges, and failure paths.
-4. **Ship** — Small releases and real feedback.
-
-<details>
-<summary><strong>Experience · timeline</strong></summary>
-
-- **SRM IST** — B.Tech Computer Science Engineering · Chennai · Merit Scholarship.
-- **King Faisal University** — AI / ML research · deep learning experimentation and applied intelligence.
-- **CJ Network** — Web Engineering.
-- **Infosys** — Python Development.
-</details>
-
-<details>
-<summary><strong>Current focus · 2026</strong></summary>
-
-Cloud-native architecture · RAG systems · Developer experience · Cybersecurity interfaces · Algorithms + systems · Production testing
+<br/>`Cloud-native architecture` · `RAG systems` · `Developer experience` · `Cybersecurity interfaces` · `Algorithms + systems` · `Production testing`
 
 *make it work → make it understandable → make it worth using*
+
 </details>
 
-## 06 · Activity
+## Activity · <sub>06</sub>
 
-![GitHub contribution activity](./assets/github-snake.svg)
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"><img src="./assets/github-snake.svg" width="100%" alt="GitHub contribution snake"></picture></div>
 
-## 07 · Contact
+## Contact · <sub>07</sub>
+
+<div align="center">
 
 ### Build something that deserves a system diagram.
 
-[Explore code](https://github.com/masked-shinobi) · [LinkedIn](https://www.linkedin.com/in/masked-shinobi-30a289377/) · [Email](mailto:maskedprogrammer.in@gmail.com)
+<a href="https://github.com/masked-shinobi"><img src="https://img.shields.io/badge/EXPLORE_CODE-6246EA?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/masked-shinobi-30a289377/"><img src="https://img.shields.io/badge/LINKEDIN-6246EA?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="mailto:maskedprogrammer.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6246EA?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
-<sub>Sanjay Baskar · Design Engineer · 2026</sub>
+<br/>
+
+<sub>SANJAY BASKAR · DESIGN ENGINEER · 2026</sub>
+
+</div>
